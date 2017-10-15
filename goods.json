@@ -1,0 +1,20 @@
+{
+  "11292" : {
+    "name" : "Apple",
+    "cost" : 12,
+    "description" : "sss",
+    "image" : "images/apple.png"
+  },
+  "11294" : {
+    "name" : "Lemon",
+    "cost" : 16,
+    "description" : "sss",
+    "image" : "images/lemon.png"
+  },
+  "11295" : {
+    "name" : "Strawberry",
+    "cost" : 22,
+    "description" : "sss",
+    "image" : "images/strawberry.png"
+  }
+}

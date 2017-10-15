@@ -1,0 +1,33 @@
+#content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f2f2f2;
+    width: 50%;
+    min-width: 500px;
+}
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 30px;
+    align-items: center;
+}
+
+.cart {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f2f2f2;
+    width: 50%;
+    min-width: 500px;
+}
+.cart-container {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 30px;
+    align-items: center;
+}
