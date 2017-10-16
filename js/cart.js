@@ -334,6 +334,7 @@
 /*
     Якщо ж корзина пуста, ми будемо відправляти ajax запит на сервер.
 */
+jQuery.support.cors = true;
 var cart = {};
 $.getJSON('goods.json', function(data){ 
     var goods = data;
@@ -440,6 +441,4 @@ function isEmptyCart(obj){
         }
     }  
 }
-
-
 

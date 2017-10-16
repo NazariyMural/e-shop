@@ -25,17 +25,17 @@ foreach($cart as $articul=>$count){
     $sum = $sum + $count*$json[$articul]['cost'];
 }
 $message .= 'Total: ' .$sum;
-print_r($message);
+// print_r($message);
 
 //Далі відправляємо листа
     //Вказуємо кому ми, будемо відпавляти листа, і також той самий адрес, який вказав користувач у формі
-$to = 'nazik_94@ukr.net'.',';
+$to = 'nazariymurall@gmail.com'.',';
 $to = $_POST['email'];
 $spectext = '<!DOCTYPE HTML><html>
 <head><title>Order</title></head><body>';
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
-$mail = mail($to, 'Order in shop', $spectext.$message.'</body></html>', $headers);
+$m = mail($to, 'Order in shop', $spectext.$message.'</body></html>', $headers);
 
-if ($mail) {echo 1;} else {echo 0;}
+if ($m) {echo 1;} else {echo 0;}
