@@ -230,5 +230,4 @@ function showMiniCart(){
 
 // request.onload = function(){
     
->>>>>>> Set up Heroku
 //     }
