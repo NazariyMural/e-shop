@@ -29,8 +29,8 @@ $message .= 'Total: ' .$sum;
 
 //Далі відправляємо листа
     //Вказуємо кому ми, будемо відпавляти листа, і також той самий адрес, який вказав користувач у формі
-$to = 'nazariymurall@gmail.com'.',';
-$to = $_POST['email'];
+$to = 'nazik_94@ukr.net'; //.','
+// $to = $_POST['email'];
 $spectext = '<!DOCTYPE HTML><html>
 <head><title>Order</title></head><body>';
 $headers  = 'MIME-Version: 1.0' . "\r\n";

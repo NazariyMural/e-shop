@@ -185,8 +185,8 @@ function showMiniCart(){
     for(var key in cart){
         out += key + ' - this article of goods, and this are amount of them: ' + cart[key] + '<br>';
     }
-    // out+= '<a href="cart.html">Go to cart</a>';
-    // $('#miniCart').html(out);
+    out+= '<a href="../cart.html">Go to carty</a>';
+    $('#miniCart').html(out);
 }
 
 
